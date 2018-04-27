@@ -1,0 +1,36 @@
+/* form */
+
+#addMovie {
+  width: 480px;
+  margin: auto;
+  padding: 5rem;
+  background: #ffffff96;
+}
+#addMovie ::placeholder {
+  color: lightgrey;
+}
+
+#addMovie textarea,
+#addMovie input,
+#addMovie select{
+  color: white;
+  background: #00000096;
+}
+
+#addMovie label {
+  color: black;
+}
+
+#addMovie textarea {
+  resize: vertical;
+}
+
+#addMovie input:focus, #addMovie textarea:focus {
+  border-color: black;
+}
+
+.button {
+  background-color: white !important;
+  color: black!important;
+  text-align: center;
+}
